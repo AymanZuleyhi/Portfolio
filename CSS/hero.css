@@ -54,6 +54,7 @@
 .icons_container{
   display: flex;
   gap: 10px;
+  border: 1px solid red;
 }
 
 .icons_container img{
