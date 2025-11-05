@@ -1,0 +1,83 @@
+ .CONTACT{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--secondary-background);
+  padding-bottom: 50px;
+}
+
+.contact{
+  width: 100%;
+  max-width: 1200px;
+  padding: var(--padding);
+}
+
+.contact_container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.email-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.email{
+  font-weight: 500;
+}
+
+/* ------------------------- Copy email button ------------------------- */
+.copy-button{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  padding: 10px;
+  background: linear-gradient(to bottom, rgb(128, 206, 255), rgb(49, 147, 208));
+
+  position: relative;
+}
+
+.copy-button i{
+  color: white;
+  font-size: 17px;
+}
+
+.copy-button:hover{
+  background: linear-gradient(to bottom, rgb(118, 197, 246), rgb(43, 136, 195));
+}
+
+.copy-button:hover .copy-hover{
+  display: flex;
+}
+
+/* ------------------------- Copy hover message ------------------------- */
+.copy-hover{
+  position: absolute;
+  top: 120%;
+
+  background-color: rgba(54, 54, 54, 0.59);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  display: none;
+}
+.copy-hover p{
+  color: white;
+}
+
+/* ------------------------- Copy succesfull email button ------------------------- */
+.copy-succesfull{
+  position: absolute;
+  display: flex;
+  top: -120%;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+
+  background-color: rgb(125, 208, 170);
+  display: none;
+}

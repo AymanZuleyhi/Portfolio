@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Mobile responsivness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS sheets -->
+    <link rel="stylesheet" type="text/css" href="./CSS/general.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/hero.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/about.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/projects.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/contact.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/toast.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/button.css" />
+  </head>
+
+  <body>
+    <div class="NAV-BAR">
+      <div class="nav-bar">
+        <p class="logo">Ayman.</p>
+
+        <div class="desktop-menu">
+          <!-- Insert the menu using JS. -->
+        </div>
+
+        <div class="mobile-menu"> 
+          <button class="hamburger-menu_button">
+            <i id="hamburger-menu"></i>
+          </button>
+          
+
+          <div class="mobile-menu_options">
+            <!-- Insert the menu using JS. -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="HERO">
+      <div class="hero">
+        <div class="left-hero">
+          <h1>Hi, I'm Ayman - Full-Stack Web Developer</h1>
+          <p>I build fast, modern websites with clean design and powerful backends.</p>
+        
+          <div class="icons_container">
+            <!-- The icons are inserted with JS -->
+          </div>
+
+          <div class="hero_controls">
+            <button id="hero-button" class="BUTTON">Contact</button>
+
+            <a href="./Files/Ayman_Zulyehi_Web_Developer_CV.pdf" download="Ayman_Zulyehi_Web_Developer_CV.pdf">
+              <button class="BUTTON-download">
+                Download CV
+                <i class="fa-solid fa-download"></i>
+              </button>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="right-hero">
+          <img class="hero-image" src="./Files/Hero.png"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="PROJECTS">
+      <div class="projects">
+        <h2>Projects</h2>
+        <p>Below you'll find a selection of my projects and client work, from websites built on Shopify and Wix to fully custom, full-stack web applications.</p>
+
+        <div class="all-projects">
+          <!-- The projects are inserted dynamically using JS. -->
+        </div>
+      </div>
+    </div>
+
+    <div class="ABOUT">
+      <div class="about">
+        <h2>Who am I?</h2>
+
+        <div class="about_container">
+          <p>I'm Bulgarian and Arab. When I'm not working, I'm probably DJing, kicking back with friends and family, or grabbing a bite to eat. Fun fact: My biggest fear is public speaking, but I actually ran Broadgate Speakers (Public Speaking club in East London) as president for one year. Talk about stepping out of my comfort zone!</p>
+          <p>I love recording my DJ sets and sharing them online. The entire process, from planning and rehearsing to filming and editing, brings me a lot of joy.</p>
+
+          <div class="about-me_pictures">
+            <img src="./Files/About/1.jpg"/>
+            <div>
+              <img src="./Files/About/2.png">
+              <img src="./Files/About/3.jpg"/>
+            </div>
+            <img src="./Files/About/4.jpg"/>
+            <img id="image5" src="./Files/About/5.jpg"/>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="CONTACT">
+      <div class="contact">
+        <h2>Contact</h2>
+
+        <div class="contact_container">
+          <p>Have a question or a project in mind? Feel free to either copy my email or fill out the form bellow. 😊</p>
+
+          <div class="email-container">
+            <p class="email">ayman.a.zuleyhi@gmail.com</p>
+
+            <button class="copy-button">
+              <i class="fa-solid fa-copy"></i>
+
+              <div class="copy-hover">
+                <p>Copy</p>
+              </div>
+
+              <div class="copy-succesfull">
+                <p>Copied!</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="FOOTER">
+      <p>© 2025 Ayman</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script type="module" src="./JavaScript/elements.js"></script>
+    <script type="module" src="./JavaScript/hero.js"></script>
+    <script type="module" src="./JavaScript/projects.js"></script>
+    <script type="module" src="./JavaScript/navbar.js"></script>
+    <script type="module" src="./JavaScript/general.js"></script>
+    <script type="module" src="./JavaScript/contact.js"></script>
+    <script type="module" src="./JavaScript/technologies.js"></script>
+  
+  </body>
+</html>

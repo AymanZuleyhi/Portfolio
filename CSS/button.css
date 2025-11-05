@@ -1,0 +1,25 @@
+.BUTTON{
+  background: linear-gradient(to bottom, rgb(128, 206, 255), rgb(49, 147, 208));
+  color: white;
+}
+
+.BUTTON:hover{
+  background: linear-gradient(to bottom, rgb(118, 197, 246), rgb(43, 136, 195));
+}
+
+.BUTTON-invalid{
+  background: rgb(209, 209, 209);;
+  color: white;
+  cursor: not-allowed;
+}
+
+.BUTTON-download{
+  background: none;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.BUTTON-download:hover{
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
